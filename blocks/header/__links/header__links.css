@@ -1,0 +1,20 @@
+.header__links {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style: none;
+  padding: 0;
+  gap: 18px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__links {
+      font-size: 18px;
+      line-height: 20px;
+  }
+}

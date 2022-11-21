@@ -1,0 +1,8 @@
+.places {
+  display: grid;
+  max-width: 984px;
+  margin: 0 auto;
+  grid-row-gap: 80px;
+}
+
+
