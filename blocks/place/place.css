@@ -18,17 +18,16 @@
   margin-top: 0px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1124px) {
   .place {
     grid-column-gap: 32px;
     grid-template-columns: repeat(auto-fit, minmax(440px 1fr));
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 984px) {
   .place {
     grid-column-gap: 28px;
-    margin: 73px auto 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
   }
 
@@ -37,7 +36,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 740px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -46,7 +45,7 @@
       "image"
       "paragraph";
     grid-row-gap: 32px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     max-width: 100%;
   }
 }
