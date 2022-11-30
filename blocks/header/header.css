@@ -2,20 +2,19 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
+  max-height: 52px;
+  margin: 0 48px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
-
-/* 
 @media screen and (max-width: 1023px) {
   .header {
-    max-width: 720px;
-    margin: 0 24px
+    max-width: calc(100vw - 24px * 2);
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    max-width: 515px;
-    margin: 0 16px;
+    max-width: calc(100vw - 16px * 2);
   }
-}  */
+}
