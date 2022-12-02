@@ -32,21 +32,10 @@
     grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
     gap: 48px 28px;
   }
-
-  .place:nth-of-type(5) {
-    margin-top: 64px;
-  }
 }
 
 @media screen and (max-width: 740px) {
   .place {
-    /* display: flex;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "website"
-      "image"
-      "paragraph"; */
     gap: 32px;
     margin:0 16px;
   }
