@@ -4,7 +4,6 @@
     line-height: 100px;
     font-weight: 900;
     text-align: center;
-    align-self: center;
     margin: 0 auto;
     margin-top: 56px;
     margin-bottom: 32px;
@@ -33,3 +32,12 @@
         align-self: center;
     }
 }
+/* var docWidth= document.documentElement.offsetWidth;
+[].forEach.call (
+    document.querySelectorAll('*'),
+    function (el) {
+        if (el.offsetWidth > docWidth) {
+            console.log(el)
+        }
+    }
+) */

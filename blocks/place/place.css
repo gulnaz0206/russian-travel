@@ -40,13 +40,13 @@
 
 @media screen and (max-width: 740px) {
   .place {
-    display: flex;
+    /* display: flex;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
       "website"
       "image"
-      "paragraph";
+      "paragraph"; */
     gap: 32px;
     margin:0 16px;
   }
