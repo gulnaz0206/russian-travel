@@ -9,5 +9,5 @@
 -медиазапросы
 -файловая структура по меттодолгии БЭМ Nested
 
-Cсылка на сайт []
+Cсылка на сайт [https://gulnaz0206.github.io/russian-travel/index.html]
 
